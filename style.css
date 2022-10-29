@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.name h2 {
+    color: rgb(49, 47, 47);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.name span {
+    font-weight: lighter;
+    color: grey;
+}
+
+#nav_bar .nav li {
+    list-style-type: none;
+    float: left;
+    padding: 16px;
+}
+.nav {
+    position: absolute;
+    right: 24px;
+    height: 64px;
+}
+.nav a {
+    text-decoration: none;
+    color: rgb(27, 25, 25);
+}
+
+li:hover {
+    background-color: rgb(186, 180, 180);
+}
+
+#nav_bar .container {
+    padding: 0 24px;
+    display: flex;
+    height: 64px;
+    align-items: center;
+}
+
+
