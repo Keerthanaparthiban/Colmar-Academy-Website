@@ -38,7 +38,7 @@
     color: rgb(27, 25, 25);
 }
 
-li:hover {
+.nav li:hover {
     background-color: rgb(186, 180, 180);
     font-size: 18px;
     transition: all 200ms ease-in 100ms;
@@ -210,7 +210,7 @@ li:hover {
 }
 
 .details {
-  color: rgb(74, 74, 74);
+  color: rgb(89, 89, 89);
   background-color: white;
   padding: 16px;
   height: 150px;
@@ -226,7 +226,24 @@ li:hover {
   font-weight: lighter;
 }
 
-#stream {
-  
-  
+/* footer */
+footer .container {
+  padding: 16px 24px 20px 24px;
+  font-weight: lighter;
+  color: rgb(89, 89, 89);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.container .tc {
+  display: flex;
+}
+
+.tc ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  padding: 5px;
+}
+
