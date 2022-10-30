@@ -39,6 +39,8 @@
 
 li:hover {
     background-color: rgb(186, 180, 180);
+    font-size: 18px;
+    transition: all 200ms ease-in 100ms;
 }
 
 #nav_bar .container {
@@ -95,9 +97,10 @@ li:hover {
 /* main child1*/
 
 .practicing {
+  width: 1000px;
   padding: 32px 24px;
   color: rgb(74, 74, 74);
-  width: 60%;
+  box-sizing: content-box;
 }
 
 .practicing img {
@@ -124,9 +127,7 @@ li:hover {
 .orientation,
 .campus,
 .guest {
-  width: 40%;
-  height: 30%;
-  padding: 24px;
+  padding: 32px 24px;
   box-sizing: content-box;
   display: flex;
   color: rgb(74, 74, 74);
@@ -141,7 +142,6 @@ li:hover {
 .child {
   display: flex;
   flex-direction: column;
-  width: 65%;
   box-sizing: content-box;
   align-self: center;
   padding: 0 20px;
@@ -153,4 +153,26 @@ li:hover {
 .guest a {
   color: rgb(98, 98, 255);
   text-decoration: none;
+}
+
+#main .container {
+  display: flex;
+}
+
+.Sub {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  box-sizing: content-box;
+  border-right: 0.5px solid rgb(212, 207, 207);
+  border-left: 0.5px solid rgb(212, 207, 207);
+}
+
+.campus, .orientation, .guest {
+  border: 0.5px solid rgb(212, 207, 207);
+}
+
+.orientation:hover, .campus:hover, .guest:hover {
+  background-color: rgb(200, 199, 199);
+  transition: background-color 200ms ease-in-out 100ms;
 }
