@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* Nav bar */
 .logo img {
     height: 50px;
@@ -179,15 +180,53 @@ li:hover {
 
 /* courses */
 
-#stream 
-{
-  background-color: rgb(245, 245, 245);
-}
-
 #stream h1 {
+  background-color: rgb(245, 245, 245);
   color: rgb(74, 74, 74);
-  padding: 32px 72px;
+  padding: 32px 72px 0 72px;
   font-size: 42px;
   text-align: center;
 }
 
+#stream .container {
+  padding: 0 72px 32px 125px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-wrap: wrap;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.course img {
+  width: 350px;
+}
+
+.course {
+  color: rgb(74, 74, 74);
+  width: 350px;
+  padding: 32px;
+  height: 350px;
+}
+
+.details {
+  color: rgb(74, 74, 74);
+  background-color: white;
+  padding: 16px;
+  height: 150px;
+}
+
+.details h3 {
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding: 8px 0;
+}
+
+.details p {
+  font-weight: lighter;
+}
+
+#stream {
+  
+  
+}
