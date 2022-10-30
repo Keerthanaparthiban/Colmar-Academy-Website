@@ -176,3 +176,18 @@ li:hover {
   background-color: rgb(200, 199, 199);
   transition: background-color 200ms ease-in-out 100ms;
 }
+
+/* courses */
+
+#stream 
+{
+  background-color: rgb(245, 245, 245);
+}
+
+#stream h1 {
+  color: rgb(74, 74, 74);
+  padding: 32px 72px;
+  font-size: 42px;
+  text-align: center;
+}
+
