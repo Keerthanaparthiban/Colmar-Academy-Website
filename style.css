@@ -119,9 +119,11 @@ li:hover {
   padding-bottom: 32px;
 }
 
-/* main child2 */
+/* main child2, child3 & child4 */
 
-.orientation {
+.orientation,
+.campus,
+.guest {
   width: 40%;
   height: 30%;
   padding: 24px;
@@ -130,11 +132,13 @@ li:hover {
   color: rgb(74, 74, 74);
 }
 
-.orientation img {
+.orientation img,
+.campus img,
+.guest img {
   width: 35%;
 }
 
-.ori {
+.child {
   display: flex;
   flex-direction: column;
   width: 65%;
@@ -143,9 +147,6 @@ li:hover {
   padding: 0 20px;
   line-height: 2;
 }
-
-
-
 
 .orientation a,
 .campus a,
