@@ -247,3 +247,66 @@ footer .container {
   padding: 5px;
 }
 
+/* thesis */
+#thesis {
+  color: rgb(74, 74, 74);
+}
+
+#thesis .container {
+  display: flex;
+}
+
+#thesis h1 {
+  padding: 32px 24px;
+  font-size: 42px;
+  text-align: center;
+}
+
+.thesis_video {
+  width: 75%;
+  box-sizing: content-box;
+  padding: 0 24px 24px 24px;
+}
+
+.thesis_video video {
+  width: 100%;
+}
+
+.thesis_video h3 {
+  padding:24px 0 8px 0;
+  font-size: 25px;
+}
+
+.thesis_video p {
+  font-weight: lighter;
+  width: 850px;
+  padding-bottom: 32px;
+}
+
+/* thesis sub */
+
+.sub1 {
+  display: flex;
+  padding: 16px;
+}
+
+.sub1 img {
+  width: 35%;
+  height: auto;
+  padding-right: 16px;
+}
+
+.thesis_info {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis_info p {
+  font-weight: lighter;
+}
+
+.sub1:hover {
+  background-color: rgb(200, 199, 199);
+  transition: background-color 200ms ease-in-out 100ms;
+}
