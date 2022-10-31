@@ -1,0 +1,20 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+#header .container {
+    height: 65px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(74, 74, 74); 
+  }
+
+  #header img {
+    width: 50px;
+  }
+
+  
